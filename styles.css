@@ -27,6 +27,8 @@ body{
 	float: right;
 	font-weight: bold;
 }
+
+
 @media (min-width: 992px) {
   .col-lg-1{
     float: left;
