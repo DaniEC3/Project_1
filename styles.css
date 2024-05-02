@@ -1,0 +1,67 @@
+body{
+	background-color: green;
+}
+*{
+  box-sizing: border-box;
+  font-family: Papyrus, Helvetica, sans-serif;
+  margin-top: 2%;
+
+
+} 
+
+.box {
+	background-color: yellow;
+	border: 3px solid black;
+	margin: 40px;
+	height: 80%;
+}
+
+.box2 {
+	background-color: white;
+	padding: 10px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	text-align: center;
+	height: 50px;
+	margin: 0px;
+	float: right;
+	font-weight: bold;
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg-1{
+    float: left;
+    width: 33%;
+  } 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-1{
+    float: left;
+    width: 50%;
+  } 
+  .col-lg-2{
+    float: left;
+    width: 100%;
+  } 
+
+}
+
+p {
+	margin: 20px;
+	margin-top: 55px;
+	text-align: justify;
+}
+h1 {
+	color: darkred;
+	font-size: 50px;
+	text-align: center;
+}
+div>p {
+	font-size: 17px;
+}
+
+div.box2 {
+	font-size: 20px;
+}
